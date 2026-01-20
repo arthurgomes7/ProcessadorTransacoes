@@ -35,4 +35,4 @@ O coração do projeto reside no `RepositorioTransacoes`, que utiliza o poder da
 ### 💻 Como Executar
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/arthurgomes7/ProcessadorTransacoes.git](https://github.com/arthurgomes7/ProcessadorTransacoes.git)
+   git clone https://github.com/arthurgomes7/ProcessadorTransacoes.git
