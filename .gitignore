@@ -1,29 +1,26 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+gen/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+### Java / Maven / Gradle ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+### Sistema Operacional ###
 .DS_Store
+Thumbs.db
+
+### Arquivos de Dados do Projeto ###
+# Ignora o CSV de testes para não subir dados pesados ou sensíveis
+*.csv
+!50linhas.csv # (Opcional) Remova a "!" se não quiser que seu arquivo de teste suba
